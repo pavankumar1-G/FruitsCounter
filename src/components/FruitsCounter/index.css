@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.backgroundContainer {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentContainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-family: Roboto;
+  font-size: 19px;
+}
+.count {
+  color: #ffd569;
+  font-family: Roboto;
+  font-size: 19px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mangoesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bananasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mangoes-img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.bananas-img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.mangoes-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+.bananas-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0;
+  height: 30px;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width:768px){
+  .heading{
+    font-size: 45px;
+    text-align: center;
+  }
+  .count{
+    font-size: 45px;
+  }
+  .image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mangoes-img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bananas-img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.contentContainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 15px;
+  padding: 35px;
+  width: 80%;
+  height: 80vh;
+  
+  
+}
+  
+}
